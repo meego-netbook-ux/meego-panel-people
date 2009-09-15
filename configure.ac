@@ -27,7 +27,7 @@ PKG_CHECK_MODULES(MPL, moblin-panel)
 PKG_CHECK_MODULES(PEOPLE,
                   anerley
                   gtk+-2.0 >= 2.14
-                  nbtk-1.0
+                  nbtk-1.2
                   gio-2.0
                   gio-unix-2.0)
 
