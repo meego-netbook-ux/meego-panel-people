@@ -25,7 +25,7 @@ CFLAGS="$CFLAGS -Wall"
 
 PKG_CHECK_MODULES(MPL, moblin-panel)
 PKG_CHECK_MODULES(PEOPLE,
-                  anerley
+                  anerley >= 0.1.3
                   gtk+-2.0 >= 2.14
                   nbtk-1.2
                   gio-2.0
