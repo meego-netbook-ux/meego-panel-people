@@ -1,5 +1,5 @@
 AC_PREREQ(2.53)
-AC_INIT(moblin-panel-people, 0.0.12)
+AC_INIT(moblin-panel-people, 0.1.0)
 AM_INIT_AUTOMAKE(AC_PACKAGE_NAME, AC_PACKAGE_VERSION)
 AC_CONFIG_MACRO_DIR([m4])
 AM_CONFIG_HEADER(config.h)
@@ -33,7 +33,7 @@ AC_SUBST(MOBLIN_PANELS_DIR)
 PKG_CHECK_MODULES(PEOPLE,
                   anerley >= 0.1.3
                   gtk+-2.0 >= 2.14
-                  nbtk-1.2
+                  mx-1.0
                   gio-2.0
                   gio-unix-2.0)
 
