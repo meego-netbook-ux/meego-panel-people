@@ -60,6 +60,34 @@ AC_ARG_ENABLE([moblin-desktop-file],
 
 AM_CONDITIONAL([ENABLE_MOBLIN_DESKTOP_FILE], [test "x$enable_mdesktop" = "xyes"])
 
+AC_MSG_CHECKING([how to detect we are online])
+AC_ARG_WITH([online],
+        [AS_HELP_STRING([--with-online],
+                [how to check if we are online (always, connman, networkmanager, test)])],
+        [], [with_online=always])
+AS_IF(
+        [test "$with_online" = always],
+        [
+        AC_MSG_RESULT([always])
+        AC_DEFINE([WITH_ONLINE_ALWAYS], 1, [No online detection])
+        ],
+
+        [test "$with_online" = connman],
+        [
+        AC_MSG_RESULT([Connection Manager])
+        AC_DEFINE([WITH_ONLINE_CONNMAN], 1, [ConnMan online detection])
+        ],
+
+        [test "$with_online" = networkmanager],
+        [
+        AC_MSG_RESULT([Network Manager])
+        PKG_CHECK_MODULES(ONLINE, libnm_glib >= 0.7)
+        AC_DEFINE([WITH_ONLINE_NM], 1, [NM online detection])
+        ],
+
+        [AC_MSG_ERROR([Unknown argument to --with-online])]
+)
+
 AC_OUTPUT([
         Makefile
         src/Makefile
