@@ -31,7 +31,7 @@ MOBLIN_PANELS_DIR=`$PKG_CONFIG --variable=moblin_panel_panels_dir moblin-panel`
 AC_SUBST(MOBLIN_PANELS_DIR)
 
 PKG_CHECK_MODULES(PEOPLE,
-                  anerley >= 0.1.3
+                  anerley >= 0.2.4
                   gtk+-2.0 >= 2.14
                   mx-1.0
                   gio-2.0
