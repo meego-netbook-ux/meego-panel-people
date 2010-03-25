@@ -33,7 +33,7 @@ AC_SUBST(MOBLIN_PANELS_DIR)
 PKG_CHECK_MODULES(PEOPLE,
                   anerley >= 0.2.4
                   gtk+-2.0 >= 2.14
-                  mx-1.0
+                  mx-1.0 >= 0.9.0
                   gio-2.0
                   gio-unix-2.0)
 
