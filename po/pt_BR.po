@@ -1,9 +1,9 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-05 09:20+0000\n"
+"POT-Creation-Date: 2010-06-30 09:18+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: GLSPTB_Gabor <bechtg@gmail.com>\n"
 "Language-Team: \n"
@@ -14,8 +14,7 @@ msgstr ""
 "X-Poedit-Language: Portuguese\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: ../src/moblin-panel-people.c:88
-#: ../src/mnb-people-panel.c:476
+#: ../src/moblin-panel-people.c:88 ../src/mnb-people-panel.c:476
 #: ../data/moblin-panel-people.desktop.in.in.h:2
 msgid "people"
 msgstr "gente"
@@ -23,12 +22,6 @@ msgstr "gente"
 #: ../src/mnb-people-panel.c:57
 msgid "Hello! This is the People panel. When you have an IM service configured (like Messenger), this is where you chat to people."
 msgstr "Olá! Este é o painel de Gente. Se você tem um serviço IM configurado (como Messenger) você vai bater papo com gente aqui."
-
-#: ../src/mnb-people-panel.c:191
-#: ../src/mnb-people-panel.c:414
-#, c-format
-msgid "Open %s"
-msgstr "Aberto %s"
 
 #: ../src/mnb-people-panel.c:231
 msgid "Sorry, we can't find any people. Have you set up a Messenger account?"
@@ -52,30 +45,28 @@ msgid "people - you are chatting with someone"
 msgstr "gente - você está batendo papo com alguém"
 
 #. Populate header
-#: ../src/mnb-people-panel.c:676
-#: ../src/mnb-people-panel.c:930
+#: ../src/mnb-people-panel.c:669 ../src/mnb-people-panel.c:923
 msgid "People"
 msgstr "Gente"
 
-#: ../src/mnb-people-panel.c:689
+#: ../src/mnb-people-panel.c:682
 msgid "Search"
 msgstr "Pesquisar"
 
-#: ../src/mnb-people-panel.c:740
-#: ../src/mnb-people-panel.c:1129
+#: ../src/mnb-people-panel.c:733 ../src/mnb-people-panel.c:1122
 msgid "You are chatting with:"
 msgstr "Você está batendo papo com:"
 
-#: ../src/mnb-people-panel.c:947
+#: ../src/mnb-people-panel.c:940
 msgid "Me and my people"
 msgstr "Eu e minha gente"
 
-#: ../src/mnb-people-panel.c:985
+#: ../src/mnb-people-panel.c:978
 msgid "Me"
 msgstr "Eu"
 
 #. Side table
-#: ../src/mnb-people-panel.c:1086
+#: ../src/mnb-people-panel.c:1079
 msgid "My conversations"
 msgstr "Minhas conversas"
 
@@ -83,20 +74,31 @@ msgstr "Minhas conversas"
 msgid "People panel"
 msgstr "Painel de gente"
 
+#: ../src/mnb-people-panel.c:191 ../src/mnb-people-panel.c:414
+#, c-format
+msgid "Open %s"
+msgstr "Abrir %s"
+
 #~ msgid "people - %d people are talking to you"
 #~ msgstr "pessoas - %d pessoas estão falando com você"
+
 #~ msgid "people - Someone is talking to you"
 #~ msgstr "pessoas - Alguem está falando com você"
+
 #~ msgid "People talking to you ..."
 #~ msgstr "Pessoas falando com você ..."
+
 #~ msgid "Send an email"
 #~ msgstr "Enviar um email"
+
 #~ msgid "Edit details"
 #~ msgstr "Editar detalhes"
+
 #~ msgid "Send a message"
 #~ msgstr "Enviar uma mensagem"
+
 #~ msgid "Selection"
 #~ msgstr "Seleção  "
+
 #~ msgid "Nobody selected"
 #~ msgstr "Ninguém selecionado"
-
