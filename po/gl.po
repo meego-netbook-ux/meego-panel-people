@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-28 09:22+0000\n"
+"POT-Creation-Date: 2010-07-07 09:16+0000\n"
 "PO-Revision-Date: 2009-10-14 20:56+0200\n"
 "Last-Translator: Xosé <xosecalvo@gmail.com>\n"
 "Language-Team: Galego <proxecto@trasno.net>\n"
@@ -21,6 +21,11 @@ msgstr ""
 msgid "people"
 msgstr "persoas"
 
+#: ../src/mnb-people-panel.c:191 ../src/mnb-people-panel.c:414
+#, c-format
+msgid "Open %s"
+msgstr "Abrir %s"
+
 #: ../src/mnb-people-panel.c:231
 msgid "Sorry, we can't find any people. Have you set up a Messenger account?"
 msgstr "Desculpe, non damos atopado ningunha persoa. Configurou unha conta do Messenger?"
@@ -33,32 +38,6 @@ msgstr "Desculpe, non damos atopado a ninguén. Parece que están todos fóra de
 msgid "To see your IM contacts, you need to go online."
 msgstr "Para ver os seus contactos de mensaxaría instantánea ten que entrar na rede."
 
-#. Populate header
-#: ../src/mnb-people-panel.c:676 ../src/mnb-people-panel.c:930
-msgid "People"
-msgstr "Persoas"
-
-#: ../src/mnb-people-panel.c:689
-msgid "Search"
-msgstr "Procurar"
-
-#: ../src/mnb-people-panel.c:740 ../src/mnb-people-panel.c:1129
-msgid "You are chatting with:"
-msgstr "Está a parolar con:"
-
-#: ../data/moblin-panel-people.desktop.in.in.h:1
-msgid "People panel"
-msgstr "Panel Persoas"
-
-#: ../src/mnb-people-panel.c:191 ../src/mnb-people-panel.c:414
-#, c-format
-msgid "Open %s"
-msgstr "Abrir %s"
-
-#: ../src/mnb-people-panel.c:56
-msgid "Hello! This is the People panel. When you have an IM service configured (like Messenger) this is where you chat topeople."
-msgstr "Ola! Este é o taboleiro de Persoas. Cando ten un servizo de IM configurado (como o Messenger), este é o lugar onde conversar coa xente."
-
 #: ../src/mnb-people-panel.c:458
 #, c-format
 msgid "people - you are chatting with %d people"
@@ -68,18 +47,39 @@ msgstr "persoas - está a charlar con% d persoas"
 msgid "people - you are chatting with someone"
 msgstr "persoas - está a charlar con alguén"
 
-#: ../src/mnb-people-panel.c:985
-msgid "Me"
-msgstr "Eu"
+#. Populate header
+#: ../src/mnb-people-panel.c:669 ../src/mnb-people-panel.c:923
+msgid "People"
+msgstr "Persoas"
 
-#: ../src/mnb-people-panel.c:947
+#: ../src/mnb-people-panel.c:682
+msgid "Search"
+msgstr "Procurar"
+
+#: ../src/mnb-people-panel.c:733 ../src/mnb-people-panel.c:1122
+msgid "You are chatting with:"
+msgstr "Está a parolar con:"
+
+#: ../src/mnb-people-panel.c:940
 msgid "Me and my people"
 msgstr "Eu e a miña xente"
 
+#: ../src/mnb-people-panel.c:978
+msgid "Me"
+msgstr "Eu"
+
 #. Side table
-#: ../src/mnb-people-panel.c:1086
+#: ../src/mnb-people-panel.c:1079
 msgid "My conversations"
 msgstr "As miñas conversas"
+
+#: ../data/moblin-panel-people.desktop.in.in.h:1
+msgid "People panel"
+msgstr "Panel Persoas"
+
+#: ../src/mnb-people-panel.c:57
+msgid "Hello! This is the People panel. When you have an IM service configured (like Messenger), this is where you chat to people."
+msgstr "Ola! Este é o taboleiro de Persoas. Cando ten un servizo de IM configurado (como o Messenger), este é o lugar onde conversar coa xente."
 
 #~ msgid "people - %d people are talking to you"
 #~ msgstr "persoas - estanlle a falar %d persoas"
