@@ -1,22 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: moblin-panel-people\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-20 23:56+0000\n"
-"PO-Revision-Date: 2010-01-22 10:26+0100\n"
-"Last-Translator: Gergely Lónyai <aleph@mandriva.org>\n"
-"Language-Team: Hungarian <aleph@mandriva.org>\n"
+"Project-Id-Version: meego-panel-people\n"
+"Report-Msgid-Bugs-To: https://bugs.meego.com/\n"
+"POT-Creation-Date: 2011-11-04 12:46+0000\n"
+"PO-Revision-Date: 2010-11-30 11:13+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Hungarian (http://www.transifex.net/projects/p/meego/team/hu/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Hungarian\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-Country: HUNGARY\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../src/meego-panel-people.c:88 ../src/mnb-people-panel.c:513
 #: ../data/meego-panel-people.desktop.in.in.h:2
@@ -24,8 +23,12 @@ msgid "people"
 msgstr "partnerek"
 
 #: ../src/mnb-people-panel.c:56
-msgid "When you have an IM service configured (like Messenger), this is where you chat to people."
-msgstr "Ha van beállított csevegő-szolgáltatása (pl. Messenger), akkor itt tud társalogni a partnereivel."
+msgid ""
+"When you have an IM service configured (like Messenger), this is where you "
+"chat to people."
+msgstr ""
+"Ha van beállított csevegő-szolgáltatása (pl. Messenger), akkor itt tud "
+"társalogni a partnereivel."
 
 #: ../src/mnb-people-panel.c:191 ../src/mnb-people-panel.c:451
 #, c-format
@@ -83,26 +86,4 @@ msgstr "Saját beszélgetések"
 msgid "People panel"
 msgstr "Partnerek panel"
 
-#~ msgid "Sorry, we can't find any people. Have you set up a Messenger account?"
-#~ msgstr "Nem található egy partner sem. Beállította már a csevegő-szolgáltatást?"
 
-#~ msgid "Send an email"
-#~ msgstr "Egy email küldése"
-
-#~ msgid "Edit details"
-#~ msgstr "Részletek szerkesztése"
-
-#~ msgid "Send a message"
-#~ msgstr "Egy üzenet küldése"
-
-#~ msgid "people - Someone is talking to you"
-#~ msgstr "ember - Valaki találkozna veled"
-
-#~ msgid "People talking to you ..."
-#~ msgstr "Valaki találkozna veled..."
-
-#~ msgid "Selection"
-#~ msgstr "Kiválasztás"
-
-#~ msgid "Nobody selected"
-#~ msgstr "Senki sincs kiválasztva"

@@ -1,31 +1,36 @@
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Meego UX\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-19 16:57+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: Pablo Barbecho <pablo.barbecho@ptiglobal.net>\n"
-"Language-Team: \n"
+"Project-Id-Version: meego-panel-people\n"
+"Report-Msgid-Bugs-To: https://bugs.meego.com/\n"
+"POT-Creation-Date: 2011-11-04 12:46+0000\n"
+"PO-Revision-Date: 2010-11-30 11:13+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Spanish (Castilian) (http://www.transifex.net/projects/p/meego/team/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Spanish\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-# <mousetip of the top of the screen>
-#: ../src/meego-panel-people.c:88
-#: ../src/mnb-people-panel.c:513
+#: ../src/meego-panel-people.c:88 ../src/mnb-people-panel.c:513
 #: ../data/meego-panel-people.desktop.in.in.h:2
 msgid "people"
 msgstr "gente"
 
 #: ../src/mnb-people-panel.c:56
-msgid "When you have an IM service configured (like Messenger), this is where you chat to people."
-msgstr "Cuando tengas configurado un servicio IM (como Messenger) aquí es donde podrás chatear."
+msgid ""
+"When you have an IM service configured (like Messenger), this is where you "
+"chat to people."
+msgstr ""
+"Cuando tengas configurado un servicio IM (como Messenger) aquí es donde "
+"podrás chatear."
 
-#: ../src/mnb-people-panel.c:191
-#: ../src/mnb-people-panel.c:451
+#: ../src/mnb-people-panel.c:191 ../src/mnb-people-panel.c:451
 #, c-format
 msgid "Open %s"
 msgstr "Abrir %s"
@@ -34,11 +39,10 @@ msgstr "Abrir %s"
 msgid "This is the People panel."
 msgstr "Este es el panel Gente."
 
-# We didn't find anybody. Do you already have an account in any Instant
-# Messenger (service)?
 #: ../src/mnb-people-panel.c:320
 msgid "Sorry, we can't find any people. It looks like they are all offline."
-msgstr "Lo sentimos, no encontramos a nadie. Parece que están todos fuera de línea."
+msgstr ""
+"Lo sentimos, no encontramos a nadie. Parece que están todos fuera de línea."
 
 #: ../src/mnb-people-panel.c:365
 msgid "To see your IM contacts, you need to go online."
@@ -54,8 +58,7 @@ msgid "people - you are chatting with someone"
 msgstr "Estás chateando con alguien"
 
 #. Populate header
-#: ../src/mnb-people-panel.c:710
-#: ../src/mnb-people-panel.c:964
+#: ../src/mnb-people-panel.c:710 ../src/mnb-people-panel.c:964
 msgid "People"
 msgstr "Gente"
 
@@ -63,8 +66,7 @@ msgstr "Gente"
 msgid "Search"
 msgstr "Búsqueda"
 
-#: ../src/mnb-people-panel.c:774
-#: ../src/mnb-people-panel.c:1162
+#: ../src/mnb-people-panel.c:774 ../src/mnb-people-panel.c:1162
 msgid "You are chatting with:"
 msgstr "Estás chateando con:"
 
@@ -84,4 +86,5 @@ msgstr "Mis conversaciones"
 #: ../data/meego-panel-people.desktop.in.in.h:1
 msgid "People panel"
 msgstr "Gente"
+
 

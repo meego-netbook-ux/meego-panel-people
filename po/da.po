@@ -1,73 +1,92 @@
-# Danish translation meego-panel-people
-# Copyright (C) 2009
-# This file is distributed under the same license as the meego-panel-people package.
-# Kris Thomsen <lakristho@gmail.com>, 2009.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Kris Thomsen <lakristho@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: meego-panel-people\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-10-16 11:32+0000\n"
-"PO-Revision-Date: 2009-11-08 22:15+0100\n"
-"Last-Translator: Kris Thomsen <lakristho@gmail.com>\n"
-"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"Report-Msgid-Bugs-To: https://bugs.meego.com/\n"
+"POT-Creation-Date: 2011-11-04 12:46+0000\n"
+"PO-Revision-Date: 2011-03-22 15:25+0000\n"
+"Last-Translator: kristho <lakristho@gmail.com>\n"
+"Language-Team: Danish (http://www.transifex.net/projects/p/meego/team/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: da\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../src/meego-panel-people.c:70 ../src/mnb-people-panel.c:573
+#: ../src/meego-panel-people.c:88 ../src/mnb-people-panel.c:513
+#: ../data/meego-panel-people.desktop.in.in.h:2
 msgid "people"
 msgstr "mennesker"
 
-#: ../src/mnb-people-panel.c:166
-msgid "Send an email"
-msgstr "Send en e-post"
+#: ../src/mnb-people-panel.c:56
+msgid ""
+"When you have an IM service configured (like Messenger), this is where you "
+"chat to people."
+msgstr ""
+"Når du har en IM-service konfigureret (f.eks. Messenger), er det her du "
+"chatter med folk."
 
-#: ../src/mnb-people-panel.c:168
-msgid "Edit details"
-msgstr "Redigér detaljer"
-
-#: ../src/mnb-people-panel.c:177
-msgid "Send a message"
-msgstr "Send en besked"
-
-#: ../src/mnb-people-panel.c:311
-msgid "Sorry, we can't find any people. Have you set up a Messenger account?"
-msgstr "Beklager, men vi kan ikke finde nogen mennesker. Har du sat en Messenger-konto op?"
-
-#: ../src/mnb-people-panel.c:447
-msgid "Sorry, we can't find any people. It looks like they are all offline."
-msgstr "Beklager, men vi kan ikke finde nogen mennesker. Det ser ud til at de alle er offline."
-
-#: ../src/mnb-people-panel.c:497
-msgid "To see your IM contacts, go online in the Status panel."
-msgstr "Gå online i statuspanelet, for at se dine kvikchat-kontakter."
-
-#: ../src/mnb-people-panel.c:554
+#: ../src/mnb-people-panel.c:191 ../src/mnb-people-panel.c:451
 #, c-format
-msgid "people - %d people are talking to you"
-msgstr "mennesker - %d mennesker snakker til dig"
+msgid "Open %s"
+msgstr "Åben %s"
 
-#: ../src/mnb-people-panel.c:561
-msgid "people - Someone is talking to you"
-msgstr "mennesker - Nogen snakker til dig"
+#: ../src/mnb-people-panel.c:233
+msgid "This is the People panel."
+msgstr "Det her er menneskepanelet."
 
-#: ../src/mnb-people-panel.c:790
+#: ../src/mnb-people-panel.c:320
+msgid "Sorry, we can't find any people. It looks like they are all offline."
+msgstr ""
+"Beklager, men vi kan ikke finde nogen mennesker. Det ser ud til at de alle "
+"er offline."
+
+#: ../src/mnb-people-panel.c:365
+msgid "To see your IM contacts, you need to go online."
+msgstr "For at se dine IM-kontakter skal du gå online."
+
+#: ../src/mnb-people-panel.c:495
+#, c-format
+msgid "people - you are chatting with %d people"
+msgstr "mennesker - du chatter med %d mennesker"
+
+#: ../src/mnb-people-panel.c:502
+msgid "people - you are chatting with someone"
+msgstr "mennesker - du chatter med en eller anden"
+
+#. Populate header
+#: ../src/mnb-people-panel.c:710 ../src/mnb-people-panel.c:964
 msgid "People"
 msgstr "Mennesker"
 
-#: ../src/mnb-people-panel.c:803
+#: ../src/mnb-people-panel.c:723
 msgid "Search"
 msgstr "Søg"
 
-#: ../src/mnb-people-panel.c:856
-msgid "People talking to you ..."
-msgstr "Mennesker som taler til dig ..."
+#: ../src/mnb-people-panel.c:774 ../src/mnb-people-panel.c:1162
+msgid "You are chatting with:"
+msgstr "Du chatter med:"
 
-#: ../src/mnb-people-panel.c:983
-msgid "Selection"
-msgstr "Markering"
+#: ../src/mnb-people-panel.c:981
+msgid "Me and my people"
+msgstr "Mig og mine mennesker"
 
-#: ../src/mnb-people-panel.c:1046
-msgid "Nobody selected"
-msgstr "Ingen valgt"
+#: ../src/mnb-people-panel.c:1019
+msgid "Me"
+msgstr "Mig"
+
+#. Side table
+#: ../src/mnb-people-panel.c:1119
+msgid "My conversations"
+msgstr "Mine samtaler"
+
+#: ../data/meego-panel-people.desktop.in.in.h:1
+msgid "People panel"
+msgstr "Menneskepanel"
+
+

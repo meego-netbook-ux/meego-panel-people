@@ -1,85 +1,91 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Mikel Pascual Aldabaldetreku <mikel.paskual@gmail.com>, 2009.
-#
+# 
+# Translators:
+# 9and3r <9and3r@gmail.com>, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-10-06 18:44+0000\n"
-"PO-Revision-Date: 2009-10-13 12:22+0100\n"
-"Last-Translator: Mikel Pascual Aldabaldetreku <mikel.paskual@gmail.com>\n"
-"Language-Team: \n"
+"Project-Id-Version: meego-panel-people\n"
+"Report-Msgid-Bugs-To: https://bugs.meego.com/\n"
+"POT-Creation-Date: 2011-11-04 12:46+0000\n"
+"PO-Revision-Date: 2011-03-30 20:35+0000\n"
+"Last-Translator: 9and3r <9and3r@gmail.com>\n"
+"Language-Team: Basque (http://www.transifex.net/projects/p/meego/team/eu/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: eu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#.
-#. * Used as header for a block of the panel showing pending conversations.
-#. * The user will be able to click the tile and answer the pending conversation
-#.
-#: ../src/meego-panel-people.c:18
-msgid "People talking to you ..."
-msgstr "Hitz egiten ari zaizkizu ..."
-
-#.
-#. * Used for the tooltip for the hover state for the icon in the toolbar
-#.
-#: ../src/meego-panel-people.c:23
-msgid "people - Someone is talking to you"
-msgstr "jendea - Hizketan ari zaizu norbait"
-
-#.
-#. * Used for the tooltip for the hover state for the icon in the toolbar
-#. * (plural version)
-#.
-#: ../src/meego-panel-people.c:29
-#, c-format
-msgid "people - %d people are talking to you"
-msgstr "jendea - %d pertsona hizketan ari zaizkizu"
-
-#: ../src/meego-panel-people.c:87
+#: ../src/meego-panel-people.c:88 ../src/mnb-people-panel.c:513
+#: ../data/meego-panel-people.desktop.in.in.h:2
 msgid "people"
 msgstr "jendea"
 
-#: ../src/mnb-people-panel.c:50
-msgid "To see your IM contacts, go online in the Status panel."
-msgstr "Zure IM-kontaktuak ikusteko, Egoera panelean konektatu zaitez."
+#: ../src/mnb-people-panel.c:56
+msgid ""
+"When you have an IM service configured (like Messenger), this is where you "
+"chat to people."
+msgstr ""
+"IM zerbitzu bat konfiguratuta duzunean (Messenger-a bezala), hemen da "
+"jendearekin txateatzen duzun lekua."
 
-#: ../src/mnb-people-panel.c:51
+#: ../src/mnb-people-panel.c:191 ../src/mnb-people-panel.c:451
+#, c-format
+msgid "Open %s"
+msgstr "Ireki %s"
+
+#: ../src/mnb-people-panel.c:233
+msgid "This is the People panel."
+msgstr "Hau Jendearen panela da."
+
+#: ../src/mnb-people-panel.c:320
 msgid "Sorry, we can't find any people. It looks like they are all offline."
-msgstr "Lastima, ezin dugu inor aurkitu. Guztiak deskonektatuta daudela dirudi."
+msgstr ""
+"Lastima, ezin dugu inor aurkitu. Guztiak deskonektatuta daudela dirudi."
 
-#: ../src/mnb-people-panel.c:164
-msgid "Send an email"
-msgstr "E-posta bidali"
+#: ../src/mnb-people-panel.c:365
+msgid "To see your IM contacts, you need to go online."
+msgstr "Zure Im kontaktuak ikusteko online egon behar zara."
 
-#: ../src/mnb-people-panel.c:166
-msgid "Edit details"
-msgstr "Xehetasunak aldatu"
+#: ../src/mnb-people-panel.c:495
+#, c-format
+msgid "people - you are chatting with %d people"
+msgstr "jendea - %d pertsona hizketan ari zaizkizu"
 
-#: ../src/mnb-people-panel.c:175
-msgid "Send a message"
-msgstr "Mezua bidali"
+#: ../src/mnb-people-panel.c:502
+msgid "people - you are chatting with someone"
+msgstr "jendea - batenbatekin txateatzen ari zara"
 
-#: ../src/mnb-people-panel.c:309
-msgid "Sorry, we can't find any people. Have you set up a Messenger account?"
-msgstr "Ezin dugu jenderik aurkitu. Messenger konturen bat kofiguratu al duzu?"
-
-#: ../src/mnb-people-panel.c:554
+#. Populate header
+#: ../src/mnb-people-panel.c:710 ../src/mnb-people-panel.c:964
 msgid "People"
 msgstr "Jendea"
 
-#: ../src/mnb-people-panel.c:567
+#: ../src/mnb-people-panel.c:723
 msgid "Search"
 msgstr "Bilatu"
 
-#: ../src/mnb-people-panel.c:680
-msgid "Selection"
-msgstr "Hautaketa"
+#: ../src/mnb-people-panel.c:774 ../src/mnb-people-panel.c:1162
+msgid "You are chatting with:"
+msgstr "Txateatzen ari zara:"
 
-#: ../src/mnb-people-panel.c:743
-msgid "Nobody selected"
-msgstr "Inor ez hautatuta"
+#: ../src/mnb-people-panel.c:981
+msgid "Me and my people"
+msgstr "Ni eta nire jendea"
+
+#: ../src/mnb-people-panel.c:1019
+msgid "Me"
+msgstr "Ni"
+
+#. Side table
+#: ../src/mnb-people-panel.c:1119
+msgid "My conversations"
+msgstr "Nire elkarrizketak"
+
+#: ../data/meego-panel-people.desktop.in.in.h:1
+msgid "People panel"
+msgstr "Jendearen panela"
+
 
